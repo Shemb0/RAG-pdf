@@ -1,0 +1,4 @@
+from .agents import ASTRO_AGENT_PROMPT
+from .task import ASTRO_AGENT_TASK
+
+ASTRO_AGENT = f"{ASTRO_AGENT_PROMPT}\{ASTRO_AGENT_TASK}"
