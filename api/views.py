@@ -119,3 +119,6 @@ class ChatView(APIView):
             session.save()
 
         return Response(MessageSerializer(ai_msg).data, status=status.HTTP_201_CREATED)
+
+
+
